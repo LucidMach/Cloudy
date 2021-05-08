@@ -27,6 +27,7 @@
   color: #f1f1f1;
   background: #9b78f2;
   margin: 2rem 1rem;
+  min-width: 300px;
   width: 30%;
   max-width: 400px;
   border-radius: 2rem;

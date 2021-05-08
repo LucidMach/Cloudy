@@ -1,11 +1,14 @@
 import "./Loading.css";
 
 const Loading = () => {
-  setTimeout(() => {
-    window.location.reload();
-    window.alert("404 Not Found");
-  }, 5000);
-  return <div className="Loading"></div>;
+  return (
+    <div className="App">
+      <div className="Loading"></div>
+      <button className="btn" onClick={() => window.location.reload()}>
+        CANCEL
+      </button>
+    </div>
+  );
 };
 
 export default Loading;
