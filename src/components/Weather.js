@@ -15,7 +15,7 @@ export default class Weather extends Component {
   }
 
   componentDidMount = async () => {
-    const url = `/data/2.5/weather?q=${this.props.city}&appid=${this.state.key}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${this.props.city}&appid=${this.state.key}`;
     const res = await axios.get(url);
     console.log(url);
     if (res) this.setState({ data: res.data, loading: false });
