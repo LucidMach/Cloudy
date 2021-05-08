@@ -3,7 +3,7 @@ import "./Loading.css";
 const Loading = () => {
   return (
     <div className="App">
-      <p style={{ color: "#9b78f2", margin: "1rem" }}>
+      <p style={{ color: "#9b78f2", margin: "1rem", textAlign: "justify" }}>
         <strong>
           NOTE : if the app takes too long to respond, you probabily have a typo
           in the city name.
