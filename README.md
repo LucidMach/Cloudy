@@ -1,11 +1,8 @@
-# Getting Started with React Less
+An minimilist UI for a Weather App, built in react without using any hooks
 
-It's a faster way of initialising/templating a create-react-app.
+# API
 
-## Using This Template
-`degit LucidMach/ReactLess ./<directory name>`
-
-Under The Hood this project uses [Create React App](https://github.com/facebook/create-react-app).
+Connects to Open Weather Map API
 
 ## Available Scripts
 
