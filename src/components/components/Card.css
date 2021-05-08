@@ -1,0 +1,27 @@
+.Card {
+  background: #9b78f2;
+  color: #f1f1f1;
+  padding: 5rem 2rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+}
+h1,
+h2 {
+  margin: 1rem;
+}
+h3,
+h4 {
+  margin: 0.25rem;
+}
+.temp {
+  font-size: 100px;
+}
+.temp span {
+  position: absolute;
+  transform: translateY(-0.2rem);
+  font-size: 30px;
+}
